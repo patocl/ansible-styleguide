@@ -270,7 +270,7 @@ Use the new `become` syntax when designating that a task needs to be run with `s
   template:
     dest: "/etc/sensu/conf.d/client.json"
     src: "client.json.j2"
-  become: true
+  become: yes
 ```
 
 ### Why?
